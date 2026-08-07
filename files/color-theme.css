@@ -39,6 +39,7 @@
   --color-gray-600: var(--color-text);
   --color-gray-300: var(--color-background); 
   --color-gray-100: var(--color-foreground); 
+  --background: linear-gradient(270deg, #F8F8F8, #0A0A0A);
 }
 
 /* solving color problems */
