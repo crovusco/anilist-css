@@ -9,10 +9,10 @@
   --color-nav-transparent-text: var(--color-text);
   --color-shadow: var(--color-foreground);
   --color-text-bright: var(--color-white);
-  --color-blue: 0, 0, 0;
-  --color-blue-dim: 0, 0, 0;
-  --color-red: 0, 0, 0;
-  --color-green: 0, 0, 0;
+  --color-blue: 191, 38, 4;
+  --color-blue-dim: 191, 38, 4;
+  --color-red: 191, 38, 4;
+  --color-green: 191, 38, 4;
   --color-footer-background: var(--color-background);
   --color-footer-text: var(--color-text);
   --genre-green: var(--color-green);
@@ -23,7 +23,7 @@
   --genre-orange: 210, 14, 65;
   --color-nav-background: var(--color-foreground);
   --color-nav-text: var(--color-text);
-  --color-background: 13, 0, 0;
+  --color-background: 0, 0, 0;
   --color-foreground: 38, 1, 11, 0.9;
   --color-foreground-grey: 38, 1, 11, 0.9;
   --color-foreground-grey-dark: var(--color-background);
