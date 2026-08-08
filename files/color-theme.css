@@ -39,7 +39,22 @@
   --color-gray-600: var(--color-text);
   --color-gray-300: var(--color-background); 
   --color-gray-100: var(--color-foreground);
-  --background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* dropdown menu transparency */
+.site-theme-dark .el-dropdown-menu,
+.site-theme-dark .el-select-dropdown {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.site-theme-dark .el-dropdown-menu__item {
+  background-color: transparent !important;
+}
+
+.site-theme-dark .el-dropdown-menu__item--divided::before {
+  background-color: transparent !important;
 }
 
 /* solving color problems */
