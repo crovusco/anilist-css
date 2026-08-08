@@ -42,16 +42,6 @@
   --background-color: 0, 0, 0, 0
 }
 
-/* transparent dropdowns */
-
-.site-theme-dark .el-dropdown-menu,
-.site-theme-dark .el-dropdown-menu__item--divided::before,
-.site-theme-dark .el-select-dropdown { 
-    background-color: transparent !important; 
-    box-shadow: none !important; 
-    border: none !important; 
-}
-
 /* solving color problems */
 .markdown-editor > div {
     color: rgb(var(--color-text)) !important;
