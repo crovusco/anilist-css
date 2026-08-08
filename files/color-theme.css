@@ -39,6 +39,7 @@
   --color-gray-600: var(--color-text);
   --color-gray-300: var(--color-background); 
   --color-gray-100: var(--color-foreground);
+  --background-color: 0, 0, 0, 0
 }
 
 /* transparent dropdowns */
