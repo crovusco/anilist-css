@@ -60,30 +60,3 @@
     color: rgb(var(--color-blue)) !important;
     text-shadow: 0 0 5px rgb(var(--color-blue)), 0 0 10px rgb(var(--color-background)), 0 0 20px rgb(var(--color-blue)) !important;
 }
-
-/* Username and avatar */
-
-.banner .container {
-    justify-content: center;
-}
-
-.banner-content {
-    width: -moz-fit-content !important;
-    width: fit-content !important;
-}
-
-.banner-content .name-wrapper h1 {
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 5px rgba(var(--color-blue));
-    }
-    to {
-        text-shadow: 0 0 10px rgba(var(--color-blue));
-
-    }
-}
